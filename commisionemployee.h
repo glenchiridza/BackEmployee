@@ -29,7 +29,7 @@ public:
     double earnings() const;
     void print() const;
 
-private:
+protected:
     string firstName;
     string lastName;
     string socialSecurityNumber;
