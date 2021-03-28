@@ -4,7 +4,9 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += main.cpp \
-    commissionemployee.cpp
+    commissionemployee.cpp \
+    basecommemployee.cpp
 
 HEADERS += \
-    commisionemployee.h
+    commisionemployee.h \
+    basepluscommission.h
